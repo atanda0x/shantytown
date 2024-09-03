@@ -1,0 +1,19 @@
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+
+}
+
+.profile-circle {
+    animation: float 6s ease-in-out infinite;
+}
+
+.profile-circle:nth-child(3n) {
+    animation-delay: -2s;
+}
+
+.profile-circle:nth-child(3n+1) {
+    animation-delay: -4s;
+}
+
